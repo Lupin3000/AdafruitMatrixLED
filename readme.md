@@ -1,5 +1,9 @@
 # Simple Adafruit Matrix LED examples
 
+**:point_right: Very Important :point_left:**
+
+The author of this repository take no responsibility for your use or misuse or any damage on your devices!
+
 ## Table of Contents
 
 ### **:one: Hardware**
