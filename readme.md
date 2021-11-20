@@ -28,3 +28,8 @@ $ sudo bash rgb-matrix.sh
 - [Show Static Text](./ShowStaticText.py)
 - [Show Static Image](./ShowStaticImage.py)
 - [Draw Static Image](./DrawStaticImage.py)
+
+```shell
+# execute example
+$ sudo python ./ShowColors.py
+```
