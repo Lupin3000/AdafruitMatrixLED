@@ -1,2 +1,26 @@
 # Simple Adafruit Matrix LED examples
 
+## Table of Contents
+
+### **:one: Hardware**
+- [Raspberry Pi Zero WH ](https://www.adafruit.com/product/3708)
+- [Adafruit RGB Matrix Bonnet for Raspberry Pi](https://www.adafruit.com/product/3211)
+- [Adafruit 64x32 RGB LED Matrix](https://www.adafruit.com/?q=64x32+RGB+LED+Matrix&sort=BestMatch)
+
+### **:two: Setup**
+- [Guide to setup Hardware](https://learn.adafruit.com/adafruit-rgb-matrix-bonnet-for-raspberry-pi)
+- [GitHub repository for RGB Matrix LED by hzeller](https://github.com/hzeller/rpi-rgb-led-matrix)
+
+```shell
+# download installer script
+$ curl https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/rgb-matrix.sh >rgb-matrix.sh
+
+# execute installer script
+$ sudo bash rgb-matrix.sh
+```
+
+### **:three: Examples**
+- [Random Colors](./ShowRandomColors.py)
+- [Show Static Text](./ShowStaticText.py)
+- [Show Static Image](./ShowStaticImage.py)
+- [Draw Static Image](./DrawStaticImage.py)
