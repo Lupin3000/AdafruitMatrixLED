@@ -1,5 +1,7 @@
 # Lesson 02
 
+In this lesson there is some movement on the Matrix LED. No further libraries or packages are required here either.
+
 ## Random Colors
 
 File: [Random Colors](./ShowRandomColors.py)
