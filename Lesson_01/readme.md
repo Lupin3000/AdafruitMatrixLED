@@ -1,13 +1,6 @@
 # Lesson 01
 
-## Random Colors
-
-File: [Random Colors](./ShowRandomColors.py)
-
-```shell
-# execute example
-$ sudo python ./ShowColors.py
-```
+In this lesson you will learn how to display static content on the Matrix LED. You do not need any further libraries or packages for this.
 
 ## Show Static Text
 
@@ -35,3 +28,5 @@ File: [Draw Static Image](./DrawStaticImage.py)
 # execute example
 $ sudo python ./DrawStaticImage.py
 ```
+
+[Go Back](../readme.md)
