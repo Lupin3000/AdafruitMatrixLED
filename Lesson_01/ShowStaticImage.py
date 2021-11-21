@@ -30,12 +30,12 @@ options.show_refresh_rate = False
 matrix = RGBMatrix(options=options)
 
 # create image
-image = Image.open('../img/bulldog.jpg')
+image = Image.open('../img/cartman.jpg')
 image.thumbnail((matrix.width, matrix.height), Image.ANTIALIAS)
 
 # show on matrix
 matrix.Clear()
-matrix.SetImage(image.convert('RGB'))
+matrix.SetImage(image.convert('RGB'), 16, 0)
 
 time.sleep(10)
 matrix.Clear()
