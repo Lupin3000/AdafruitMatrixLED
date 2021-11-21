@@ -21,3 +21,12 @@ $ sudo python ./SimpleClock.py
 ```
 
 [Go Back](../readme.md)
+
+## Advanced Clock
+
+File: [Advanced Clock](./AdvancedClock.py)
+
+```shell
+# execute example
+$ sudo python ./AdvancedClock.py
+```
