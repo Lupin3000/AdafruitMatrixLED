@@ -33,7 +33,7 @@ matrix = RGBMatrix(options=options)
 # set max duration
 duration = datetime.datetime.now() + datetime.timedelta(seconds=10)
 
-# create canvas with text
+# create canvas
 canvas = matrix.CreateFrameCanvas()
 
 while True:

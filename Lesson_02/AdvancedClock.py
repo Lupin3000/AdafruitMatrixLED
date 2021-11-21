@@ -44,7 +44,7 @@ month_font = graphics.Font()
 month_font.LoadFont("../fonts/7x13.bdf")
 month_color = graphics.Color(100, 100, 250)
 
-# create canvas with text
+# create canvas
 canvas = matrix.CreateFrameCanvas()
 
 while True:

@@ -20,8 +20,6 @@ File: [Simple Clock](./SimpleClock.py)
 $ sudo python ./SimpleClock.py
 ```
 
-[Go Back](../readme.md)
-
 ## Advanced Clock
 
 File: [Advanced Clock](./AdvancedClock.py)
@@ -29,6 +27,15 @@ File: [Advanced Clock](./AdvancedClock.py)
 ```shell
 # execute example
 $ sudo python ./AdvancedClock.py
+```
+
+## Text Scroller
+
+File: [Text Scroller](./TextScroller.py)
+
+```shell
+# execute example
+$ sudo python ./TextScroller.py
 ```
 
 [Go Back](../readme.md)
