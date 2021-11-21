@@ -38,4 +38,13 @@ File: [Text Scroller](./TextScroller.py)
 $ sudo python ./TextScroller.py
 ```
 
+## Image Scroller
+
+File: [Image Scroller](./ImageScroller.py)
+
+```shell
+# execute example
+$ sudo python ./ImageScroller.py
+```
+
 [Go Back](../readme.md)

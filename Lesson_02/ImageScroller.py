@@ -3,7 +3,8 @@
 import time
 from datetime import datetime, timedelta
 
-from rgbmatrix import RGBMatrix, RGBMatrixOptions, graphics
+from PIL import Image
+from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # set matrix options
 options = RGBMatrixOptions()
@@ -31,31 +32,26 @@ matrix = RGBMatrix(options=options)
 
 # set max duration and text
 duration = datetime.now() + timedelta(seconds=30)
-text = 'Hello world from RGB Matrix LED'
 
-# create font
-font = graphics.Font()
-font.LoadFont("../fonts/9x15.bdf")
-fontcolor = graphics.Color(250, 250, 250)
+# create image
+image = Image.open('../img/pacman.jpg').convert('RGB')
+img_width, img_height = image.size
+image.thumbnail((img_width / 2, img_height / 2), Image.ANTIALIAS)
 
-# create canvas
-canvas = matrix.CreateFrameCanvas()
-
-# get canvas position
-canvas_pos = canvas.width
+# image start, x and y position
+img_start_pos = img_x_pos = 64
+img_y_pos = (32 - (img_height / 2)) / 2
 
 while True:
     if datetime.now() >= duration:
         break
-    # get length of text
-    text_len = graphics.DrawText(canvas, font, canvas_pos, 20, fontcolor, text)
     # change position
-    canvas_pos -= 1
-    if (canvas_pos + text_len) < 0:
-        canvas_pos = canvas.width
+    img_x_pos -= 1
+    if (img_x_pos + img_width / 2) < 0:
+        img_x_pos = img_start_pos
     # show on matrix
-    time.sleep(0.05)
     matrix.Clear()
-    canvas = matrix.SwapOnVSync(canvas)
+    matrix.SetImage(image, img_x_pos, img_y_pos)
+    time.sleep(0.05)
 
 matrix.Clear()

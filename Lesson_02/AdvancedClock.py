@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 from datetime import datetime, timedelta
+
 from rgbmatrix import RGBMatrix, RGBMatrixOptions, graphics
 
 # set matrix options
