@@ -36,7 +36,7 @@ fontcolor = graphics.Color(175, 175, 175)
 # create canvas with text
 canvas = matrix.CreateFrameCanvas()
 graphics.DrawText(canvas, font, 15, 15, fontcolor, 'hello')
-graphics.DrawText(canvas, font, 15, 25, fontcolor, 'Sonja')
+graphics.DrawText(canvas, font, 15, 25, fontcolor, 'world')
 
 # show on matrix
 matrix.Clear()
