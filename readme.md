@@ -2,7 +2,9 @@
 
 **:point_right: Very Important :point_left:**
 
-The author of this repository take no responsibility for your use or misuse or any damage on your devices!
+You can adapt, improve and use the code for your projects as you wish. The author of this repository take no responsibility for your use or misuse or any damage on your devices!
+
+**Hint:** With [PyCharm](https://www.jetbrains.com/pycharm/) (*Professional Edition*) you can run and debug the local code remotely on the Raspberry PI.
 
 ## Table of Contents
 
