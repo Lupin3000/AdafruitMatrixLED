@@ -25,3 +25,4 @@ $ sudo bash rgb-matrix.sh
 
 ### **:three: Lessons**
 - [Lesson 01](./Lesson_01/)
+- [Lesson 02](./Lesson_02/)
