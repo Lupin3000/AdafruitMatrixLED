@@ -28,6 +28,6 @@ $ sudo bash rgb-matrix.sh
 *Since a lot has to be downloaded and compiled (it also provides a lot of examples) - **please be patient** (it takes about 2 hours on the Raspberry PI Zero)!*
 
 ### **:three: Lessons**
-- [Lesson 01](./Lesson_01/readme.md) - *SSuitable for absolute beginners*
+- [Lesson 01](./Lesson_01/readme.md) - *Suitable for absolute beginners*
 - [Lesson 02](./Lesson_02/readme.md) - *When you understand the basics*
 - [Lesson 03](./Lesson_03/readme.md) - *More advanced options for experimentation*
