@@ -23,13 +23,5 @@ $ curl https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts
 $ sudo bash rgb-matrix.sh
 ```
 
-### **:three: Examples**
-- [Random Colors](./ShowRandomColors.py)
-- [Show Static Text](./ShowStaticText.py)
-- [Show Static Image](./ShowStaticImage.py)
-- [Draw Static Image](./DrawStaticImage.py)
-
-```shell
-# execute example
-$ sudo python ./ShowColors.py
-```
+### **:three: Lessons**
+- [Lesson 01](./Lesson_01/)

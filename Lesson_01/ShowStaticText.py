@@ -30,7 +30,7 @@ matrix = RGBMatrix(options=options)
 
 # create font
 font = graphics.Font()
-font.LoadFont("./7x13.bdf")
+font.LoadFont("../fonts/7x13.bdf")
 fontcolor = graphics.Color(175, 175, 175)
 
 # create canvas with text
