@@ -23,6 +23,8 @@ $ curl https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts
 $ sudo bash rgb-matrix.sh
 ```
 
+*Since a lot has to be downloaded and compiled (it also provides a lot of examples) - **please be patient** (it takes about 2 hours on the Raspberry PI Zero)!*
+
 ### **:three: Lessons**
-- [Lesson 01](./Lesson_01/)
-- [Lesson 02](./Lesson_02/)
+- [Lesson 01](./Lesson_01/) - *Suitable for beginners*
+- [Lesson 02](./Lesson_02/) - *When you understand the basics*
