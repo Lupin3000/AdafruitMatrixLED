@@ -31,11 +31,11 @@ matrix = RGBMatrix(options=options)
 
 # create image
 image = Image.open('../img/cartman.jpg')
-image.thumbnail((matrix.width, matrix.height), Image.ANTIALIAS)
+image.thumbnail((30, 30), Image.ANTIALIAS)
 
 # show on matrix
 matrix.Clear()
-matrix.SetImage(image.convert('RGB'), 16, 0)
+matrix.SetImage(image.convert('RGB'), 17, 1)
 
 time.sleep(10)
 matrix.Clear()
