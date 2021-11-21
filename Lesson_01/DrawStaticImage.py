@@ -37,7 +37,6 @@ draw.rectangle((2, 2, 61, 13), fill=(0, 0, 0), outline=(255, 0, 0))
 draw.ellipse((5, 5, 20, 20), fill=(100, 0, 0), outline=(0, 255, 0))
 
 # show on matrix
-matrix.Clear()
 matrix.SetImage(image)
 
 time.sleep(10)
