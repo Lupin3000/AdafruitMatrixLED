@@ -6,6 +6,8 @@ You can adapt, improve and use the code for your projects as you wish. The autho
 
 **Hint:** With [PyCharm](https://www.jetbrains.com/pycharm/) (*Professional Edition*) you can run and debug the local code remotely on the Raspberry PI.
 
+**Hint:** If you need to wait for your order, have a look on the [RGBMatrixEmulator](https://github.com/ty-porter/RGBMatrixEmulator)!
+
 ## Table of Contents
 
 ### **:one: Hardware**
