@@ -4,7 +4,7 @@ In this lesson there is some movement on the Matrix LED. No further libraries or
 
 ## Random Colors
 
-File: [Random Colors](./ShowRandomColors.py)
+File: [ShowRandomColors.py](./ShowRandomColors.py)
 
 ```shell
 # execute example
@@ -13,7 +13,7 @@ $ sudo python ./ShowColors.py
 
 ## Simple Clock
 
-File: [Simple Clock](./SimpleClock.py)
+File: [SimpleClock.py](./SimpleClock.py)
 
 ```shell
 # execute example
@@ -22,7 +22,7 @@ $ sudo python ./SimpleClock.py
 
 ## Advanced Clock
 
-File: [Advanced Clock](./AdvancedClock.py)
+File: [AdvancedClock.py](./AdvancedClock.py)
 
 ```shell
 # execute example
@@ -31,7 +31,7 @@ $ sudo python ./AdvancedClock.py
 
 ## Text Scroller
 
-File: [Text Scroller](./TextScroller.py)
+File: [TextScroller.py](./TextScroller.py)
 
 ```shell
 # execute example
@@ -40,7 +40,7 @@ $ sudo python ./TextScroller.py
 
 ## Image Scroller
 
-File: [Image Scroller](./ImageScroller.py)
+File: [ImageScroller.py](./ImageScroller.py)
 
 ```shell
 # execute example

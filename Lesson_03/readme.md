@@ -4,7 +4,7 @@ Now it's getting a little more advanced on the Matrix LED. You should understand
 
 ## Dot Light Show
 
-File: [Dot Light Show](./DotLightShow.py)
+File: [DotLightShow.py](./DotLightShow.py)
 
 ```shell
 # show help
@@ -22,7 +22,7 @@ $ sudo python ./DotLightShow.py -d 59 -n 89
 
 ## Two Text Scroller
 
-File: [Two Text Scroller](./TwoTextScroller.py)
+File: [TwoTextScroller.py](./TwoTextScroller.py)
 
 ```shell
 # show help

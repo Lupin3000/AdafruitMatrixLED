@@ -4,7 +4,7 @@ In this lesson you will learn how to display static content on the Matrix LED. Y
 
 ## Show Static Text
 
-File: [Show Static Text](./ShowStaticText.py)
+File: [ShowStaticText.py](./ShowStaticText.py)
 
 ```shell
 # execute example
@@ -13,7 +13,7 @@ $ sudo python ./ShowStaticText.py
 
 ## Show Static Image
 
-File: [Show Static Image](./ShowStaticImage.py)
+File: [ShowStaticImage.py](./ShowStaticImage.py)
 
 ```shell
 # execute example
@@ -22,7 +22,7 @@ $ sudo python ./ShowStaticImage.py
 
 ## Draw Static Image
 
-File: [Draw Static Image](./DrawStaticImage.py)
+File: [DrawStaticImage.py](./DrawStaticImage.py)
 
 ```shell
 # execute example
