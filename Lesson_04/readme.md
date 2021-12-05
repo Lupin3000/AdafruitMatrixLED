@@ -1,6 +1,6 @@
 # Lesson 04
 
-You can now implement your projects with the help of other libraries / packages
+You can now implement your projects with the help of other libraries/packages. You can improve or change these examples at any time.
 
 ## Video Player
 
@@ -17,6 +17,24 @@ $ sudo python ./VideoPlayer.py
 
 # execute with parameter
 $ sudo python ./VideoPlayer.py --video '../video/video.mov'
+```
+
+## Crypto LED
+
+> Please install requests packages for Python first! You need the API key from [nomics](https://nomics.com/).
+
+File: [CryptoLED.py](./CryptoLED.py)
+
+```shell
+# show help
+$ sudo python ./CryptoLED.py -h
+
+# execute with default
+$ sudo python ./CryptoLED.py [API KEY]
+
+# execute with parameter
+$ sudo python ./CryptoLED.py [API KEY] --currency=CHF
+$ sudo python ./CryptoLED.py [API KEY] --currency=CHF --crypto='LTC,ETH,DOT'
 ```
 
 [Go Back](../readme.md)
