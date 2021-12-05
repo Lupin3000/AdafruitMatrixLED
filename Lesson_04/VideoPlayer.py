@@ -45,7 +45,8 @@ parser.add_argument('--video', help='Path and video file', default='../video/vid
 args = parser.parse_args()
 
 # read video file
-print('read video file')
+print('read video file: {}'.format(args.video))
+
 # noinspection PyArgumentList
 movie = cv2.VideoCapture(args.video)
 
@@ -67,13 +68,13 @@ while True:
     # convert frames to images
     pil_img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     pil_img.thumbnail(MAX_SIZE, Image.ANTIALIAS)
-    # show on matrix
-    matrix.Clear()
+    # resize and RGB mode
     canvas.SetImage(pil_img.convert('RGB'), 0, 0)
     # show on matrix
+    matrix.Clear()
     canvas = matrix.SwapOnVSync(canvas)
     currentframe += 1
-    # play with value
+    # stop to prevent flicker effect
     time.sleep(0.005)
 
 # movie finished
