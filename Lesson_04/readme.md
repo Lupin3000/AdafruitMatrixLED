@@ -4,6 +4,8 @@ You can now implement your projects with the help of other libraries / packages
 
 ## Video Player
 
+> Please install OpenCV packages for Python first! Dependent to your Hardware, you will come quickly to the limits.
+
 File: [VideoPlayer.py](./VideoPlayer.py)
 
 ```shell
