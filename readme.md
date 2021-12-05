@@ -33,3 +33,4 @@ $ sudo bash rgb-matrix.sh
 - [Lesson 01](./Lesson_01/readme.md) - *Suitable for absolute beginners*
 - [Lesson 02](./Lesson_02/readme.md) - *When you understand the basics*
 - [Lesson 03](./Lesson_03/readme.md) - *More advanced options for experimentation*
+- [Lesson 04](./Lesson_04/readme.md) - *Some fancy ideas for your own projects*
