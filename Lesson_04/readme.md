@@ -37,4 +37,21 @@ $ sudo python ./CryptoLED.py [API KEY] --currency=CHF
 $ sudo python ./CryptoLED.py [API KEY] --currency=CHF --crypto='LTC,ETH,DOT'
 ```
 
+## Weather LED
+
+> Please install requests packages for Python first! You need the API key from [openweathermap](https://openweathermap.org/).
+
+File: [WeatherLED.py](./WeatherLED.py)
+
+```shell
+# show help
+$ sudo python ./WeatherLED.py -h
+
+# execute with default
+$ sudo python ./WeatherLED.py [ZIP CODE] [COUNTRY CODE] [API KEY]
+
+# execute with parameter
+$ sudo python ./WeatherLED.py [ZIP CODE] [COUNTRY CODE] [API KEY] --units 'imperial'
+```
+
 [Go Back](../readme.md)

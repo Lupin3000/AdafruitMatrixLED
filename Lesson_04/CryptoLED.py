@@ -46,7 +46,7 @@ parser.add_argument('--crypto', help='Set your cryptos comma separated',
                     metavar='[ETH,BTC]', default='ETH,BTC,DOT', type=str)
 
 # set mandatory arguments
-parser.add_argument('apikey', help='', type=str)
+parser.add_argument('apikey', help='unique api key for nomics.com', type=str)
 
 # read arguments by user
 args = parser.parse_args()
