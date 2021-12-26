@@ -54,4 +54,23 @@ $ sudo python ./WeatherLED.py [ZIP CODE] [COUNTRY CODE] [API KEY]
 $ sudo python ./WeatherLED.py [ZIP CODE] [COUNTRY CODE] [API KEY] --units 'imperial'
 ```
 
+## REST API Display
+
+> Please install Flask packages for Python first!
+
+
+File: [APIDisplay.py](./APIDisplay.py)
+
+```shell
+# start server
+$ sudo python ./APIDisplay.py
+```
+
+now via other terminal session
+
+```shell
+# do curl request
+$ curl http://localhost:5000/?text=HelloWorld
+```
+
 [Go Back](../readme.md)
